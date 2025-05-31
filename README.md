@@ -1,12 +1,58 @@
-# React + Vite
+# React To-Do App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based To-Do List application built using Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add, remove, and mark tasks as completed
+- Input validation to prevent empty tasks
+- Dynamic task display
+- Optional sorting and filtering
+- Optional localStorage support
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (v13 or above)
+- npm
+
+### Installation
+
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/AtharvaBhavar/To-DoApp.git
+    cd To-DoApp
+    ```
+
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+### Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open your browser and go to:  
+[http://localhost:5173](http://localhost:5173)
+
+### Testing Instructions
+
+- Add valid and invalid tasks to verify input validation.
+- Click checkboxes to mark tasks as completed.
+- Use the delete option to remove tasks.
+- Refresh the page to check persistence (if localStorage is implemented).
+- Try sorting and filtering features if available.
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## License
+
+This project is licensed under the MIT License.
